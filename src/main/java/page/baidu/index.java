@@ -12,36 +12,17 @@ import util.find.WebElementUtils;
 
 public class index {
 
-//    @Test(priority = 0, description = "测试")
-//    public void baidu()throws Exception{
-//        WebDriver driver = SeleniumDrive.open();
-//        driver.get("https://www.baidu.com/");
-//        Actions.sendKeys(By.id("kw"),"测试");
-//
-//        Thread.sleep(500);
-//        SeleniumDrive.closedAll();
-//    }
+    @Test(priority = 0, description = "测试")
+    public void baidu()throws Exception{
+        WebDriver driver = SeleniumDrive.open();
+        driver.get("https://www.baidu.com/");
+        Actions.sendKeys(By.id("kw"),"测试");
 
-    @Test
-    public void test1(){
-        Assert.assertEquals(1,2);
+        Thread.sleep(500);
+        SeleniumDrive.closedAll();
     }
 
-    @Test
-    public void test2(){
-        Assert.assertEquals(1,1);
-    }
 
-    @Test
-    public void test3(){
-        Assert.assertEquals("aaa","aaa");
-    }
-
-    @Test
-    public void logDemo(){
-        Reporter.log("这是我们自己写的日志");
-        throw new RuntimeException("这是我自己的运行时异常");
-    }
 
 
 }

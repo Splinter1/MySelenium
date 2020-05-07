@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Default Suite">
   <listeners>
-<!--        <listener class-name="util.testng.RetryListener"></listener>-->
-<!--        <listener class-name="util.testng.TestngRetry"></listener>-->
+    <listener class-name="util.testng.RetryListener"></listener>
+    <listener class-name="util.testng.TestResultListener"></listener>
     <listener class-name="util.testng.ExtentTestNGIReporterListener"/>
   </listeners>
 
