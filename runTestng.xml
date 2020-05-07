@@ -9,7 +9,7 @@
 
   <test name="test">
     <classes>
-      <class name="page.baidu.index"/>
+      <class name="baidu.index"/>
     </classes>
   </test>
 
