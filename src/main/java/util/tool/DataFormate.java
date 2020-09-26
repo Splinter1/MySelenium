@@ -1,13 +1,13 @@
 package util.tool;
 
-import util.action.Actions;
+import util.action.myAction;
 import util.log4j.LoggerControler;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DataFormate {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
     public static final String ZH_DATE_FORMAT="yyyy-MM-dd HH:mm:ss";
     public static final String ZN_DATE_FORMAT="yyyy年MM月dd日 HH:mm:ss";
     public static final String ZC_DATE_FORMAT="yyyy年MM月dd日";

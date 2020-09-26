@@ -3,7 +3,7 @@ package util.tool;
 
 import org.testng.Assert;
 import org.testng.collections.Lists;
-import util.action.Actions;
+import util.action.myAction;
 import util.action.ScreenShot;
 import util.log4j.LoggerControler;
 
@@ -17,7 +17,7 @@ import static org.testng.internal.EclipseInterface.*;
  * Created by 米阳 on 2016/6/23.
  */
 public class MyAssert extends Assert {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
 
     /**
      * Asserts that a condition is true. If it isn't,

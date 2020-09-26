@@ -7,7 +7,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import util.action.Actions;
+import util.action.myAction;
 import util.log4j.LoggerControler;
 
 import java.io.*;
@@ -21,7 +21,7 @@ import java.util.List;
  * Created by lenovo on 2016/11/10.
  */
 public class ExcelUnit {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
     //定义一个excel
     private static HSSFWorkbook workbook=null;
     //判断excel的sheet是否存在

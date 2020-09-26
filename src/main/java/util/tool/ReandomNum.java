@@ -1,13 +1,13 @@
 package util.tool;
 
 
-import util.action.Actions;
+import util.action.myAction;
 import util.log4j.LoggerControler;
 
 import java.util.Random;
 
 public class ReandomNum {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
 
     //生成N位数的随机数
     public static String getNumRandom(int length){

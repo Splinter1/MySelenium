@@ -1,7 +1,7 @@
 package util.tool;
 
 
-import util.action.Actions;
+import util.action.myAction;
 import util.log4j.LoggerControler;
 
 import java.io.File;
@@ -11,7 +11,7 @@ import java.io.File;
  * Created by lenovo on 2016/11/10.
  */
 public class MyFile {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
     //判断文件是否存在
     public static boolean fileExist(String filePath){
         return new File(filePath).exists();

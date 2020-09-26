@@ -17,7 +17,7 @@ import java.io.IOException;
  * Created by lenovo on 2016/11/12.必须要继承SeleniumDrivers
  */
 public class ScreenShot extends SeleniumDrive {
-    final static LoggerControler log = LoggerControler.getlogger(Actions.class);
+    final static LoggerControler log = LoggerControler.getlogger(myAction.class);
     static String path = System.getProperties().getProperty("user.dir") + "/error/";
     /**
      * 错误截图，通过日期命名的截图
